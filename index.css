@@ -1,0 +1,105 @@
+#background {
+    background-color: #f2eae2
+    ;
+}
+
+#title {
+    color: black;
+    text-align: center;
+    margin-top: 32px;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+    font-size: 55px;
+    letter-spacing: 1.75px;
+}
+
+#info {
+    color: black;
+    text-align: center;
+    margin-top: -2%;
+    /* font-family:-apple-system-short-body, BlinkMacSystemFont, sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+    letter-spacing: 1.55px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+  }
+
+.bu {
+height: 130px;
+width: 250px;
+margin: 12px;
+border-radius: 6px;
+border-style: solid;
+color: black;
+background-color: #f2eae2;
+transition: 0.35s;
+font-size: 22px;
+letter-spacing: 1.75px;
+font-weight:bold;
+
+}
+
+.bu:hover {
+    cursor: pointer;
+  }
+
+
+#tl {
+    background-color: #ef3d60;
+    border-color: #ef3d60;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#tl.bu:hover {
+    box-shadow: 0 0px 20px rgba(239, 61, 96, 255)    ;
+}
+
+#tr {
+    background-color: #66c7c2;
+    border-color: #66c7c2;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#tr.bu:hover {
+    box-shadow: 0 0px 20px rgba(102,199,194,255)    ;
+}
+
+#bl {
+    background-color: #faba6b;
+    border-color: #faba6b;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+#bl.bu:hover {
+    box-shadow: 0 0px 20px rgba(250,186,107,255)    ;
+}
+
+#br {
+    background-color:#7bc24b;
+    border-color: #7bc24b;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+
+#br.bu:hover {
+    box-shadow: 0 0px 20px rgba(123,193,74,255)    ;
+}
+
+
+.st {
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+
